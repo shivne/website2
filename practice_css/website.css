@@ -1,0 +1,284 @@
+/*   -Project: Personal Website
+-Description: This is our personal site project.  It will be posted on github using gh-pages.
+-Color Theme:
+.color-primary-0 { color: #AA7D39 }	-medium
+.color-primary-1 { color: #FFD596 } -lightest
+.color-primary-2 { color: #DDAE64 } -2nd lightest
+.color-primary-3 { color: #805615 } -2nd darkest
+.color-primary-4 { color: #553300 } -darkest
+*/
+
+/*==========Global Styles==========*/
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #553300;
+  font-weight: 900;
+}
+
+nav {
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h5 {
+  margin: 0px;
+  padding: 15px 0px 0px 0px;
+  color:#fff;
+}
+
+.container {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/*==========Header Styles==========*/
+
+#header {
+  height: 100px;
+  background-color: #FFDB9E;
+  border-top: 3px solid #553300;
+  border-bottom: 3px solid #553300;
+}
+
+.logo {
+  width: 33%;
+  color: #553300;
+  float: left;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.logo h1 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.menu {
+  width: 33%;
+  float: left;
+  margin-top: 30px;
+  color: #553300;
+}
+
+.menu li:after {
+  padding-right: 7px;
+  content: " | ";
+}
+
+.sm-icons {
+  font-size: 2em;
+  width: 33%;
+  float: left;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.sm-icons a {
+  padding-right: 7px;
+}
+
+/*==========Banner Styles==========*/
+
+#banner {
+  height: 300px;
+  width: 1366px;
+  background: url(../img/lake.jpg) center;
+  background-size: cover;
+}
+
+#banner h1 {
+  margin-top: 0;
+  padding-top: 40px;
+  font-size: 2.5em;
+  color: #000;
+  text-align: center;
+}
+
+/*==========Skills Styles==========*/
+
+#skills {
+  background-color: #553300;
+  height: 475px;
+  color: #fff;
+}
+
+#skills .box{
+  height: 100%;
+  width: 25%;
+  border: 3px solid black;
+  display: inline-block;
+  margin: 30px 2% 10px 2%;
+  padding: 15px 24px;
+  border-radius: 10%;
+}
+
+#skills .border {
+  border-bottom: 2px solid #FFD596;
+  padding: 20px 0px;
+}
+
+.skills-icon {
+  height: 50px;
+  width: 50px;
+  margin: 0px auto;
+  border: 2px solid #553300;
+  border-radius: 100%;
+  background-color: #FFDB9E;
+}
+
+.skills-icon i {
+  font-size: 2em;
+  color: #000;
+  margin: 9px 11px;
+
+}
+
+.skills-info h2{
+  text-align: center;
+  margin-top: 20px;
+  color: #DDAE64;
+}
+
+.skills-info p {
+  text-align: justify;
+  line-height: 22px;
+}
+
+/*==========Video Styles==========*/
+
+#video {
+  width: 100%;
+  position: relative;
+  padding-bottom: 52%;
+  padding-top: 30px;
+  height: 0px;
+  overflow: hidden;
+  background-color: #805615;
+}
+
+.video-container {
+  width: 98%;
+  margin: 0px auto;
+}
+
+#video iframe{
+  position: absolute;
+  margin: 20px 120px;
+  width: 80%;
+  height: 80%;
+}
+
+/*==========About Styles==========*/
+
+#about {
+  height: 375px;
+  background-color: #553300;
+}
+
+.box2 {
+  height: 375px;
+  width: 42%;
+  background-color: #553300;
+  float: left;
+}
+
+.box3 {
+  width: 45%;
+  background-color: #FFD596;
+  float: left;
+  margin-top: 50px;
+  padding: 50px;
+  font-size: 1.01em;
+  text-align: center;
+  border: 2px dashed #000;
+}
+
+#about .img {
+  width: 66%;
+  height: 90%;
+  margin: 20px 0px 20px 70px;
+  border-radius: 100%;
+  border: 2px solid #000;
+}
+
+/*==========Contact Styles==========*/
+
+#contact {
+  height: 450px;
+  background-color: #AA7D39;
+  border-bottom: 2px solid #000;
+}
+
+.map {
+  height: 450px;
+  width: 45%;
+  background-color: #FFDB9E;
+  float: left;
+}
+
+.contact {
+  height: 450px;
+  width: 50.85%;
+  background-color: #DDAE64;
+  float: left;
+  padding-left: 55px;
+  padding-top: 20px;
+  text-align: center;
+  border-left: 1px solid #000;
+}
+
+.address {
+  float: left;
+  text-align: center;
+  margin-left: 233px;
+}
+
+/*==========Footer Styles==========*/
+
+#footer {
+  width: 100%;
+  height: 125px;
+  background-color: #805615;
+  float: left;
+  text-align: center;
+}
+
+.footer-box {
+  margin-left: 43%;
+  margin-right: 43%;
+}
+
+.footer-icons {
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+  margin-left: 3px;
+  border: 2px solid #fff;
+  float: left;
+  border-radius: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.footer-icons i {
+  margin-top: 9px;
+  font-size: 2em;
+}
