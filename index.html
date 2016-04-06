@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Practice Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css"/>
+    <link href="practice_css/website.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+
+     <!--==========Begin Header==========-->
+
+
+     <section id="header">
+       <div class="container">
+         <div class="logo">
+           <h1>Andrew Caruso</h1>
+         </div>
+
+         <nav class="menu">
+             <ul>
+               <li>
+                 <a href="home.html">Home</a>
+               </li>
+               <li>
+                 <a href="about.html">About</a>
+               </li>
+               <li>
+                 <a href="contact.html">Contact</a>
+               </li>
+         </nav>
+
+         <div class="sm-icons">
+           <a href="http://www.twitter.com">
+             <i class="fa fa-twitter" style="color: #4099FF"></i>
+           </a>
+           <a href="http://www.facebook.com">
+             <i class="fa fa-facebook" style="color: #3b5998"></i>
+           </a>
+           <a href="http://www.github.com">
+             <i class="fa fa-github" style="color: black"></i>
+           </a>
+         </div>
+       </div>
+     </section>
+
+     <!--==========Begin Banner==========-->
+
+     <section id="banner">
+       <h1>Banner Text</h1>
+
+     </section>
+
+     <!--==========Begin Skills==========-->
+
+     <section id="skills">
+       <div class="container">
+         <div class="border"></div>
+           <div class="box">
+             <div class="skills-icon">
+               <a href="#">
+                 <i class="fa fa-pencil"></i>
+               </a>
+             </div>
+             <div class="skills-info">
+               <h2>HTML</h2>
+               <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation.
+               </p>
+             </div>
+           </div>
+           <div class="box">
+             <div class="skills-icon">
+               <a href="#">
+                 <i class="fa fa-pencil"></i>
+               </a>
+             </div>
+             <div class="skills-info">
+               <h2>CSS</h2>
+               <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation.
+               </p>
+             </div>
+           </div>
+           <div class="box">
+             <div class="skills-icon">
+               <a href="#">
+                 <i class="fa fa-pencil"></i>
+               </a>
+             </div>
+             <div class="skills-info">
+               <h2>Javascript</h2>
+               <p>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation.
+               </p>
+             </div>
+           </div>
+         <div class="border"></div>
+       </div>
+     </section>
+
+     <!--==========Begin Video==========-->
+
+     <section id="video">
+       <div class="video-section">
+         <iframe width="854" height="480" src="https://www.youtube.com/embed/0AvWV6Mk374" frameborder="0" allowfullscreen></iframe>
+       </div>
+     </section>
+
+     <!--==========Begin About==========-->
+
+     <section id="about">
+       <div class="box2">
+         <img class="img"; src="img\bear.jpg"/>
+       </div>
+
+       <div class="box3">
+         <h1 style="font-size: 2.3em">More About Me</h1>
+         <p>
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+         </p>
+       </div>
+     </section>
+
+    <!--==========Begin Contact==========-->
+
+     <section id="contact">
+       <div class="map">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.178576340414!2d-119.7975288852812!3d36.74228447865847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5d1bf341b%3A0x2547b07bf4a759a3!2s2210+San+Joaquin+St%2C+Fresno%2C+CA+93721!5e0!3m2!1sen!2sus!4v1459214570024" width="607" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+       </div>
+
+       <div class="contact">
+         <form id="contact_form" action="#" method="POST"  enctype="multipart/form-data">
+           <h1>Contact Me!</h1>
+         	<div class="row" style="margin-top: 20px;">
+         		<label for="name">Your name:</label><br />
+         		<input id="name" class="input" name="name" type="text" placeholder="Name" size="60" /><br />
+         	</div>
+         	<div class="row">
+         		<label for="email">Your email:</label><br />
+         		<input id="email" class="input" name="email" type="text" placeholder="Email" size="60" /><br />
+         	</div>
+         	<div class="row">
+         		<label for="message">Your message:</label><br />
+         		<textarea id="message" class="input" placeholder="Message" name="message" rows="7" cols="62"></textarea><br />
+         	</div>
+         	<input id="submit_button" type="submit" value="Send email" />
+        </form>
+        <div class="address">
+            <div style="margin-top: 80px;">700 Van Ness Avenue</div>
+            <div>Fresno, CA 93721</div>
+            <div>559.555.5555</div>
+            <div><a href="mailto:mullich@mail.fresnostate.edu" target="_top" style="color: #000">mullich@mail.fresnostate.edu</a></div>
+        </div>
+       </div>
+      </div>
+     </section>
+
+     <!--==========Begin Footer==========-->
+
+     <section id="footer">
+       <div class="footer-box">
+         <div>
+           <h5>Powered by Caruso Technology</h5>
+         </div>
+         <div class="footer-icons">
+           <a href="http://www.facebook.com">
+             <i class="fa fa-facebook" style="color: #3b5998"></i>
+           </a>
+         </div>
+         <div class="footer-icons">
+           <a href="http://www.twitter.com">
+             <i class="fa fa-twitter" style="color: #4099FF"></i>
+           </a>
+         </div>
+         <div class="footer-icons">
+           <a href="http://www.github.com">
+             <i class="fa fa-github" style="color: black"></i>
+           </a>
+         </div>
+       </div>
+
+     </section>
+
+     <!--=====Google analytics Code=====-->
+
+         <script>
+           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+           ga('create', 'UA-75720539-1', 'auto');
+           ga('send', 'pageview');
+
+       </script>
+  </body>
+</html>
